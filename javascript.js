@@ -62,11 +62,3 @@ function playRound (humanChoice, computerChoice) {
 
 const humanSelection = getHumanChoice();
 const computerSelection = getComputerChoice();
-
-function playGame () {
-  for (let i = 0; i < TimeRanges; i++) {
-    playRound();
-  }
-}
-
-playGame(5);
